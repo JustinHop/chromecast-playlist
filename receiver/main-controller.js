@@ -1,7 +1,15 @@
 angular.module('receiver')
     .controller('MainController', ['$scope', function($scope) {
 
-        $scope.first = {
+        $scope.current = {
+            song: {
+                title: 'Dat A S S',
+                artist: 'Ass Man'
+            },
+            user: 'Butt Enthusiast'
+        };
+
+        $scope.next = {
             song: {
                 title: 'Dat A S S',
                 artist: 'Ass Man'

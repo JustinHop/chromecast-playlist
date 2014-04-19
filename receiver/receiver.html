@@ -21,26 +21,33 @@
         <div class="frame" ng-controller="MainController">
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="row first">
+                    <div class="row next">
                         <div class="col-lg-9">
-                            {{first.song.artist}} -
+                            Up next: <br/>
+                            {{next.song.artist}} -
                             <div class="row">
-                                "{{first.song.title}}"
+                                "{{next.song.title}}"
                             </div>
-                            Spun by: {{first.user}}
+                            Spun by: {{next.user}}
                         </div>
                         <div class="col-lg-3">
-                            <img ng-src="{{song.art || 'placeholder.svg'}}" class="img-responsive">
+                            <img ng-src="{{next.song.art || 'placeholder_sm.png'}}" class="img-responsive">
                         </div>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-9">
                         <div class="song-preview" ng-repeat="song in queue">
                             <song info="song">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <img ng-src="{{song.art || 'placeholder.svg'}}" class="img-responsive">
+                    <div class="row current-art">
+                        <img ng-src="{{current.song.art || 'placeholder_lg.png'}}" class="img-responsive">
+                    </div>
+                    <div class="row current-song">
+                        <h1>{{current.song.artist}} - "{{current.song.title}}"</h1>
+                        <h3>Spun by: {{current.user}}</h3>
+                    </div>
                 </div>
             </div>
         </div>
