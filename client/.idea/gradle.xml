@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="C:\android\AndroidStudioProjects\OpenBooth" />
-            <option value="C:\android\AndroidStudioProjects\OpenBooth\Sender" />
+            <option value="C:\Users\tucke_000\Documents\GitHub\chromecast-playlist\client" />
+            <option value="C:\Users\tucke_000\Documents\GitHub\chromecast-playlist\client\Spinner" />
           </set>
         </option>
       </GradleProjectSettings>
