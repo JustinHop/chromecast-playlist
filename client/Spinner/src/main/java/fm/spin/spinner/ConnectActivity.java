@@ -1,9 +1,11 @@
-package com.openbooth.openbooth;
+package fm.spin.spinner;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.openbooth.openbooth.R;
 
 
 public class ConnectActivity extends Activity {
