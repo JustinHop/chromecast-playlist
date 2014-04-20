@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="343pt"
-   height="340pt"
+   width="300"
+   height="300"
    id="svg3823"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 7">
+   sodipodi:docname="placeholder.svg">
   <defs
      id="defs3825" />
   <sodipodi:namedview
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.8"
-     inkscape:cx="110"
-     inkscape:cy="210"
+     inkscape:zoom="0.4"
+     inkscape:cx="405.6654"
+     inkscape:cy="408.48566"
      inkscape:document-units="pt"
      inkscape:current-layer="layer1"
      id="namedview3827"
@@ -34,7 +34,8 @@
      inkscape:window-height="876"
      inkscape:window-x="0"
      inkscape:window-y="24"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="pt" />
   <metadata
      id="metadata3829">
     <rdf:RDF>
@@ -50,14 +51,18 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-125)">
     <rect
-       style="fill:#cccccc;stroke:#000000;stroke-width:3.71287131;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#cccccc;stroke:#000000;stroke-width:6.17040586;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect3003"
-       width="371.28714"
-       height="371.28714"
-       x="29.356436"
-       y="24.356424"
-       ry="49.504951" />
+       width="293.82959"
+       height="293.82959"
+       x="3.0852029"
+       y="128.08521"
+       ry="39.17728"
+       inkscape:export-filename="/home/dhernandez/git/chromecast-playlist/receiver/placeholder_sm.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
