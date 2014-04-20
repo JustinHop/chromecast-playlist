@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fm.spin.spinner" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/finger"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="fm.spin.spinner.ConnectActivity"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="fm.spin.spinner.RoomActivity"
+            android:label="@string/title_activity_room"
+            android:parentActivityName="fm.spin.spinner.ConnectActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fm.spin.spinner.ConnectActivity" />
+        </activity>
+    </application>
+
+</manifest>
